@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ArcGIS locks / connections
+*.lock
+*.sr.lock
+*.sde
+
+# Generated geospatial data
+*.gdb/
+*.gpkg
+*.gpkg.bz2
+*.geojson
+*.json.part
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+
+# OBM temporary work
+_obm_work_*/
+
+# Logs and local scratch
+*.log
+scratch/
+temp/
+tmp/
+
+# Credentials / local config
+.env
+.env.*
+*.token
+credentials.*
+secrets.*
+
+# Allow deliberately committed tiny example GeoJSON if added later
+!examples/*.geojson
